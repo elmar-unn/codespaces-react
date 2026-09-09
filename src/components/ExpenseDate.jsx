@@ -9,6 +9,7 @@ const ExpenseDate = (props) => {
         month: "long"
     });
 
+
     const year = props.date.getFullYear();
 
     return (
